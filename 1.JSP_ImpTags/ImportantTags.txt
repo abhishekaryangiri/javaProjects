@@ -1,0 +1,13 @@
+# Imp tags of jsp:
+
+1. Declarative tag( declaration):
+
+	->iske help s apne pure page me method aur var. ko decl. kr sktey h
+	<%!  method/var %>
+	
+2. Scriptlet Tag(scripting tag):
+
+<% java code %>
+
+3.Expression tag: written inside html/printing
+<%= statement %>

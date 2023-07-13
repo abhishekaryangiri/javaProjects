@@ -1,3 +1,12 @@
+codetogether.first.time.usage.page.shown=true
 codetogether.main.view.displayed=true
+default.auth=prompt
+default.cursor=JOIN_CURSOR_ASK
+default.drive=all
+default.edit=all
+default.run=all
+default.team.only=false
 eclipse.preferences.version=1
+last.update.display.time=1664025993001
+reported.codetogether=true
 uuid=FApoFp5O9BKtiSb4fHlFNB

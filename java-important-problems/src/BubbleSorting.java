@@ -2,10 +2,10 @@
 public class BubbleSorting {
 public static void main(String[] args) {
 	int a[]={22,30,40,5,1};
-    int t;
-    int i;
-    int j;
-    int l;
+    int t, i, j,l;
+	/*
+	 * int i; int j; int l;
+	 */
     l=a.length;
     for(i=0;i<l-1;i++)
     {

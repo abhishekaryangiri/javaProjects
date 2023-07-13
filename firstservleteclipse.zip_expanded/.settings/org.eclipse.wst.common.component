@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="firstservleteclipse.zip_expanded">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <property name="context-root" value="firstservleteclipse.zip_expanded"/>
+        <property name="java-output-path" value="/firstservleteclipse.zip_expanded/first/build/classes"/>
+    </wb-module>
+</project-modules>
