@@ -6,6 +6,7 @@
 <meta charset="UTF-8">
 <title>first jsp</title>
 </head>
+<!-- <body style="background: yellow"> -->
 <body>
 <h1>First JSP</h1>
 
@@ -41,9 +42,9 @@ out.println(reverse());
 
 //expression tag
 %>
-<h2>Multiplication: <%= multy() %></h2>
-<h2>Reverse: <%= reverse() %></h2>
-<h1>Sum is: <%= add() %></h1>
+<h2 style="color: red">Multiplication: <%= multy() %></h2>
+<h2 style="color: grey">Reverse: <%= reverse() %></h2>
+<h2 style="color: green">Sum is: <%= add() %></h2>
 
 </body>
 </html>
