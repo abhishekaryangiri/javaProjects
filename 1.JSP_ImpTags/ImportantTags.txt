@@ -11,3 +11,15 @@
 
 3.Expression tag: written inside html/printing
 <%= statement %>
+
+
+4. jsp Directives tag:  y ek msg h jo web cntnr ko btata h ki jsp page ko   servlet me translate kaise krey
+ they r 3 typs:
+ 
+ 1. page directive: iske help se apne class ko import krenge
+ 
+  <%@page import="java.util.Random" %>: page: means pure page p apply hoga  
+ 2.Inclusw directive:
+ 
+ 3. Taglib directive:
+ ->jo se
