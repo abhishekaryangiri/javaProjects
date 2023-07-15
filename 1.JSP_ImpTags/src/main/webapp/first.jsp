@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    <%@page session="true" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,10 +9,11 @@
 </head>
 <!-- <body style="background: yellow"> -->
 <body>
+<%@include file="header.jsp"  %>
 <h1>First JSP</h1>
 
+<!-- declaration tag -->
 <%!
-//declaration tag
 int a=2;
 int b=450;
 String  name = "Hello JSP";
@@ -38,10 +40,10 @@ out.println("<br>");
 out.println("sum: "+ add());
 out.println("<br>");
 out.println(reverse());
-
-
-//expression tag
 %>
+
+
+<!-- expression tag -->
 <h2 style="color: red">Multiplication: <%= multy() %></h2>
 <h2 style="color: grey">Reverse: <%= reverse() %></h2>
 <h2 style="color: green">Sum is: <%= add() %></h2>
