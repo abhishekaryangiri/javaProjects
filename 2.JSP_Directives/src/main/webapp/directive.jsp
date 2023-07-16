@@ -12,7 +12,7 @@
 <h1>Explanation: How to use page directive? </h1>
 
 <h1>Random Number: 
-<%Random r= new Random();
+<% Random r= new Random();
 int  x = r.nextInt(8);
 %>
 <%=out.println(x) %></h1>
