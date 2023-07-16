@@ -6,9 +6,15 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Page Directive Use</title>
 </head>
 <body>
+<h1>Explanation: How to use page directive? </h1>
 
+<h1>Random Number: 
+<%Random r= new Random();
+int  x = r.nextInt(8);
+%>
+<%=out.println(x) %></h1>
 </body>
 </html>
