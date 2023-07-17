@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+<h1 style="background: purple;color:white;height:60px; text-align:center;padding:10px">This is header section</h1>
 </body>
 </html>
