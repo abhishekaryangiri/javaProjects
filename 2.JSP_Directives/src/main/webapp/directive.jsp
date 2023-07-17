@@ -9,6 +9,7 @@
 <title>Page Directive Use</title>
 </head>
 <body>
+<%@include file="header.jsp" %>
 <h1>Explanation: How to use page directive? </h1>
 
 <h1>Random Number: 
