@@ -15,6 +15,6 @@
 <% Random r= new Random();
 int  x = r.nextInt(8);
 %>
-<%=out.println(x) %></h1>
+<%=x %></h1>
 </body>
 </html>

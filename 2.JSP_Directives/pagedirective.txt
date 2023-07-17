@@ -1,0 +1,12 @@
+# page directive:
+
+ <%@page import="java.util.Random,java.util.ArrayList,java.io.*" %>
+ 
+ page direc: page k bare m info batatey h/page k sath contant ko kaise deal krna h
+ 
+ max page cont use kr sktey / wo sarey kaam kr /include kr saktey h jo is page p ban skta h/ bahut hi imp role play krta h apn log k liy
+ 
+ ex.
+ 
+ <%@ page isErrorPage...  
+  <%@ page Session...  false  : krne p session ko page me use ni kr sktey
