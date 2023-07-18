@@ -7,6 +7,12 @@
 <head>
 <meta charset="UTF-8">
 <title>Page Directive Use</title>
+<style type="text/css">
+*{
+margin: 0px;
+padding: 0px;
+}
+</style>
 </head>
 <body>
 <%@include file="header.jsp" %>
