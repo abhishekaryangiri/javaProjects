@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<%@include %>
-<!-- kisi dusre resorce ko inc krne k liy use hota h, ex header,footer etc -->
+<%@include file="header.jsp" %>
+<!-- kisi dusre resorce ko increment krne k liy use hota h, ex. header,footer etc -->
 </body>
 </html>
