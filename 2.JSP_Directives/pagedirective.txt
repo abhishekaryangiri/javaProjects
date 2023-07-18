@@ -1,4 +1,5 @@
-# page directive:
+# directive:
+1.page directive:
 
  <%@page import="java.util.Random,java.util.ArrayList,java.io.*" %>
  
@@ -8,5 +9,11 @@
  
  ex.
  
- <%@ page isErrorPage...  
+ <%@ page isErrorPage...  explore
   <%@ page Session...  false  : krne p session ko page me use ni kr sktey
+  <%@page Extend...
+  
+  
+  2. include directive:
+  <%@include file="header.jsp" %>
+  -> kisi dusre res ko use uss page p use krne k lyy include krtey h/jis res ko include krenge uska sara res apne page p aajayega
