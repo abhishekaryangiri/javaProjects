@@ -1,1 +1,5 @@
 #taglib directive: y help krta h kisi dusrey lib. k tags k use krney k liy ex. core java /sql etc
+
+=>     <%@taglib prefix="a" %>
+prefix a means ->  ex  <a: we will find all tags with the help of a
+ <!--    it means sarey tag hm a k help se use kr sktey h -->
