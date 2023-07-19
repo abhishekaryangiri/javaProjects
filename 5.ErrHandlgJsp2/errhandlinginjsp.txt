@@ -1,0 +1,9 @@
+=> why 404 err ->
+
+HTTP Status 404 – Not Found
+
+->if provided page is not found then it will give 404 err
+-> if we write anything in url then we will ...etc
+
+
+=> HTTP Status 500 – Internal Server Error
