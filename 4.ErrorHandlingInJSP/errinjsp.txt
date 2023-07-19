@@ -4,7 +4,7 @@
 
 => intitution:
  1.how to handle err:
- 	1.create err page
+ 	1.create err page(err handle krny k lyy ek nya pg banana hoga)
  	2.add tag <%@page isErrorPage="true" %>
  	3.add tag <%@page errorPage="errpage.jsp" %> into main page
  	
