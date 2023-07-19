@@ -1,5 +1,12 @@
 #taglib directive: y help krta h kisi dusrey lib. k tags k use krney k liy ex. core java /sql etc
+if we want to use other tag lib in our jsp page
+->jstl(jaca std tag lib)
 
-=>     <%@taglib prefix="a" %>
+=>     <%@taglib prefix="a" %> a ltr  k help s srey tag use kr sktey h
+yaha lkoe v letter le saktey h
+
+-> uri="http://java.sun.com/jsp/jstl/core    others( fmt,sql)
+uri: means  uniqe identifier /jstl k inside ka vode or sql/ formating ? sa part use krna chahtey h
+
 prefix a means ->  ex  <a: we will find all tags with the help of a
  <!--    it means sarey tag hm a k help se use kr sktey h -->
