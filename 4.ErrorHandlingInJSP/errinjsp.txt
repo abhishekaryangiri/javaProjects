@@ -1,0 +1,12 @@
+#error in jsp
+
+=> how to handle error:
+
+=> intitution:
+ 1.how to handle err:
+ 	1.create err page
+ 	2.add tag <%@page isErrorPage="true" %>
+ 	3.add tag <%@page errorPage="errpage.jsp" %> into main page
+ 	
+ 2.know err typ
+ 	1.<h4>Error type: <%= exception %></h4> in error page: we can see d typ of err

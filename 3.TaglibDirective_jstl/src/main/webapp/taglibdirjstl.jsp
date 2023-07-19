@@ -17,7 +17,7 @@
 <hr>
 
 <div style="background: purple; text-align: center; height: 60px">
-<a:if test="${20<5 }">
+<a:if test="${20>5 }">
 <h3>True!!</h3>
 </a:if>
 </div>
