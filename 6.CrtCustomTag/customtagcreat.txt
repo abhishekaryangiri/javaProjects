@@ -1,0 +1,17 @@
+#custom tag
+
+- user define tag
+-why? 
+->Custom tags are user-defined tags. They eliminates the possibility of scriptlet tag and separates the business logic from the JSP page. The same business logic can be used many times by the use of custom tag.
+
+-> suppose 1 pro ko 2 log kr rhe h /1st wala backend /2nd wala fronted/backend wala jsp tech. use kr custom tag crt kr ega/ wo tag associated hoga java code se/jaise hi frontend wala banaya huya c t use krega  to java code run hojayega bcs wo tag associated tha java bknd se /seprtly backend ka kaam alg/ ftnd ka ald/aur tag k help se frnted wala apna kaam kr lega
+
+=> start:
+
+1. create a  tagHandler class(uske pichhey logic kya chalega)
+2.kisi v class ko tag hndlr clss bananey k liy tag intrfce ko implement krlo/aur mthod ko override kr do
+	-> TagSupport: 
+	
+	
+	3.TLD(tag library discrepter): tld
+	-> new->file->create mylib.tld (dont search tld file/create with ending tld)
