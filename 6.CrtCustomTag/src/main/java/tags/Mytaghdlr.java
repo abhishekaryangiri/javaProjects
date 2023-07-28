@@ -11,14 +11,11 @@ public class Mytaghdlr extends TagSupport  {
 		try {
 			
 			JspWriter out = pageContext.getOut();
-			out.println("<h6>This is my custom tag</h6>");
+			out.println("<h6 >This is my custom tag</h6>");
 			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		return SKIP_BODY;
 	}
-
-
-	
 }

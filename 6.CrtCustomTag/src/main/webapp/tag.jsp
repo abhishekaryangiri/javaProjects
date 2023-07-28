@@ -23,8 +23,8 @@
 
 <t:mytag></t:mytag>
 <hr>
-<div class="mr-3">
+
 <t:printTable number="20"></t:printTable>
-</div>
+
 </body>
 </html>

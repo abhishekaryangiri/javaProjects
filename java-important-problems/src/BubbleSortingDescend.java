@@ -2,10 +2,8 @@
 public class BubbleSortingDescend {
 public static void main(String[] args) {
 	 int a[]={22,30,40,5,1};
-     int t;
-     int i;
-     int j;
-     int l;
+     int t,i,j,k,l;
+
      l=a.length;
      for(j=0;j<l-1;j++)
      {
