@@ -13,7 +13,7 @@
 <img style="width: 400px; height: 400px" class="img-fluid " alt="Responsive image"  src="img/404-error.jpg">
 <h1 class="text-danger text-center">Opps!!! page not found!!!</h1>
 <%--  <p><%=exception %></p> --%>
- <a class="btn btn-outline-primary" href="index.html">Home pge</a>
+ <a class="btn btn-outline-primary" href="index.html">Home page</a>
 </div>
 </body>
 </html>

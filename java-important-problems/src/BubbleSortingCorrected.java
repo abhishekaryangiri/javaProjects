@@ -2,10 +2,7 @@
 public class BubbleSortingCorrected {
 public static void main(String[] args) {
     int a[]={56,89,74,19,20};
-    int t;
-    int i;
-    int j;
-    int l;
+    int t,i,j,k,l;
     l=a.length;
     for(i=0;i<l-1;i++)
     {

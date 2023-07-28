@@ -6,9 +6,7 @@ public static void main(String[] args) {
 	
 	String a []={"H","E","L","L","O"};
       String t="";
-      int i;
-      int j;
-      int l;
+      int i,j,l;
       l=a.length;
       for(i=0;i<l-1;i++)
       {

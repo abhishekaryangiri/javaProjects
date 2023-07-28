@@ -27,7 +27,6 @@ public class PrtTableTag extends TagSupport{
 		}catch(Exception e) {
 			e.printStackTrace();
 		}
-		
 		return SKIP_BODY;
 	}
 
