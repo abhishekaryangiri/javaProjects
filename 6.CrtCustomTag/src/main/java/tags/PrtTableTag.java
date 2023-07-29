@@ -9,6 +9,7 @@ public class PrtTableTag extends TagSupport{
 	public int number;
 	public String color;
 
+	//setter
 	public void setColor(String color) {
 		this.color = color;
 	}
@@ -25,6 +26,8 @@ public class PrtTableTag extends TagSupport{
 		try {
 		JspWriter out = pageContext.getOut();
 		//printing table
+		
+		out.println("<div style=' '>")
 		out.print("<br>");
 		for( int i=1;i<=10;i++)
 		{
