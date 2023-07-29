@@ -22,6 +22,10 @@
 <name>number</name>
 <required>true</required>
 </attribute>
+<attribute>
+<name>color</name>
+<required>true</required>
+</attribute>
 </tag>
 
 </taglib>
