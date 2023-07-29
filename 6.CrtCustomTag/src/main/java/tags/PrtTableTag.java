@@ -27,12 +27,15 @@ public class PrtTableTag extends TagSupport{
 		JspWriter out = pageContext.getOut();
 		//printing table
 		
-		out.println("<div style=' '>")
+		out.println("<div style=' color: " +color+" '>");
+		
 		out.print("<br>");
 		for( int i=1;i<=10;i++)
 		{
 			out.print("      "+(i*number)+"<br>");
 		}
+		out.println("</div>");
+		
 		}catch(Exception e) {
 			e.printStackTrace();
 		}
