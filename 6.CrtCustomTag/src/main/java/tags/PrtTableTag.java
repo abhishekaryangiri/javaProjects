@@ -7,6 +7,7 @@ import javax.servlet.jsp.tagext.TagSupport;
 public class PrtTableTag extends TagSupport{
 	
 	public int number;
+	public String color;
 	//setter
 	//key: alt+shift+s+r
 	public void setNumber(int number) {
