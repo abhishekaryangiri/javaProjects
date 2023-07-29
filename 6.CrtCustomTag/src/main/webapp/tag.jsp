@@ -24,7 +24,8 @@
 <t:mytag></t:mytag>
 <hr>
 
-<t:printTable number="20"></t:printTable>
+<t:printTable number="20" color="blue"></t:printTable>
+
 
 </body>
 </html>
