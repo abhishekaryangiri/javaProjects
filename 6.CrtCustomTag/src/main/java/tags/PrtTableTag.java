@@ -8,6 +8,11 @@ public class PrtTableTag extends TagSupport{
 	
 	public int number;
 	public String color;
+
+	public void setColor(String color) {
+		this.color = color;
+	}
+
 	//setter
 	//key: alt+shift+s+r
 	public void setNumber(int number) {
