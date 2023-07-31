@@ -21,5 +21,7 @@
 PrintWriter out=response.getWriter();  
 But in JSP, you don't need to write this code -->
 
+<% out.print("Today is:"+java.util.Calendar.getInstance().getTime()); %>  
+
 </body>
 </html>
