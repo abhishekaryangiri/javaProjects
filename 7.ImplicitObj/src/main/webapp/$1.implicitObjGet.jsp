@@ -1,3 +1,4 @@
+
 <%@page import="java.util.Calendar"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
@@ -14,12 +15,30 @@
 
 <%out.println("hello coder, today is "+ Calendar.getInstance().getTime()); %>
 
-<!-- 1. jsp out implicit obj: -->
+<!-- 1. jsp out implicit obj: 
+it is used to write  d data or content  on client's browser
+
+-->
 
 <!-- For writing any data to the buffer, JSP provides an implicit object named out. It is the object of JspWriter. In case of servlet you need to write:
 
 PrintWriter out=response.getWriter();  
 But in JSP, you don't need to write this code -->
+
+
+<!-- 
+9 impl obj:
+
+1. out
+2. request
+3. respond
+4. config
+5. application
+6. session
+7. pagecontext
+8. page
+9. exception -->
+
 
 <% out.print("Today is:"+java.util.Calendar.getInstance().getTime()); %>  
 
