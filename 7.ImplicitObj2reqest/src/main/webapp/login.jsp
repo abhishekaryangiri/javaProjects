@@ -6,10 +6,9 @@
 <meta charset="UTF-8">
 <title>Login</title>
 </head>
-<body>
-<form action="index.jsp">
-<input type="text" name=" name"/>
-<input type="number" name="password">
+<body style="padding: 20px">
+<form  action="user.jsp" >
+<input type="text"  name="usrName" placeholder="enter name"/>
 <input type="submit"  value="login"/>  
 </form>
 </body>
