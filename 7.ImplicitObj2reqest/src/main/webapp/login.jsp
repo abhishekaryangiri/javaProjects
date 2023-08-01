@@ -8,8 +8,9 @@
 </head>
 <body style="padding: 20px">
 <form  action="user.jsp" >
+<h2>Login here</h2>
 <input type="text"  name="usrName" placeholder="enter name"/>
-<input type="submit"  value="login"/>  
+<input type="submit"  value="Login"/>  
 </form>
 </body>
 </html>
