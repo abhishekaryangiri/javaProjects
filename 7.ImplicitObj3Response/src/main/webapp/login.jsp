@@ -4,9 +4,13 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Response</title>
 </head>
 <body>
-
+<form action="user.jsp">
+<h2>login here</h2>
+<input type="text" placeholder="enter name"  name="usrName"/>
+<input type="submit"  value="Login" />
+</form>
 </body>
 </html>
